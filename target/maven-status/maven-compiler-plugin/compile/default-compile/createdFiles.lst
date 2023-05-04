@@ -1,0 +1,12 @@
+br\com\clientes\ClientesAplication.class
+br\com\clientes\model\repository\ClienteRepository.class
+br\com\clientes\config\InternacionalizacaoConfig.class
+br\com\clientes\model\entity\Cliente.class
+br\com\clientes\service\ClienteService.class
+br\com\clientes\model\repository\ServicoRepository.class
+br\com\clientes\model\entity\Cliente$ClienteBuilder.class
+br\com\clientes\rest\exception\ClienteCadastradoException.class
+br\com\clientes\rest\ApplicattionControllerAdvice.class
+br\com\clientes\model\entity\Servico.class
+br\com\clientes\rest\ClienteController.class
+br\com\clientes\rest\exception\ApiErrors.class

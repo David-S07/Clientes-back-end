@@ -31,11 +31,10 @@ public class Cliente {
     @Column(nullable = false)
     private Boolean status = true;
 
-    @Column(unique = true, nullable = false, length = 11)
+    @Column(unique = true, length = 11)
     @CPF(message = "{campo.cpf.invalido}")
-    @NotEmpty(message = "{campo.cpf.obrigatorio}")
     private String cpf;
-    @Column(length = 14)
+    @Column(unique = true, length = 14)
     @CNPJ(message = "{campo.cnpj.invalido}")
     private String cnpj;
     @Column(nullable = false, length = 9)

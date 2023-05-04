@@ -13,9 +13,13 @@ public class ClienteService {
     private ClienteRepository repository;
 
     public Cliente salvar(Cliente cliente) {
-        boolean exists = repository.existsByCpf(cliente.getCpf());
-        if(exists) {
+        Boolean exists = repository.existsByCpf(cliente.getCpf());
+        if(exists && cliente.getCpf() != null) {
             throw new ClienteCadastradoException(cliente.getCpf());
+        }
+        Boolean exists2 = repository.existsBycnpj(cliente.getCnpj());
+        if(exists2 && cliente.getCnpj() != null) {
+            throw new ClienteCadastradoException(cliente.getCnpj());
         }
         return repository.save(cliente);
     }
