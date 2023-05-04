@@ -17,7 +17,7 @@ Esse repositório é o back-end da aplicação de cadastro de clientes -> https:
    
 3. startar a aplicação
 
-##Observações: 
+## Observações: 
 
 	- o banco de dados utilizado é o H2, portanto não é preciso configurar ou instalar nenhum banco de dados.
 	- a porta padrão utilizada é [localhost:8080](http://localhost:8080/api/clientes/)
