@@ -6,7 +6,7 @@ Esse repositório é o back-end da aplicação de cadastro de clientes -> https:
 
 ## Guidelines
 
-1. baixar esse repositório e o do clientes-fron-end
+1. baixar esse repositório e o do clientes-front-end
 
 2. dar um mvn clean install na raiz do projeto
 
